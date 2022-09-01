@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary : #ff6162;
+    --secondary: black;
+}
+
+/* #ff6162 */
+
+/* Header Section */
+.container {
+    width: 60%;
+    margin: auto;
+}
+.header-section {
+    display: flex;
+    height: 85px;
+}
+
+.logo-section {
+    flex-basis: 20%;
+}
+
+.logo-section img {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.menu-section {
+    flex-basis: 50%;
+}
+.button-section {
+    flex-basis: 30%;
+}
+
+.menu-section, .button-section, .logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-section ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu-section ul li {
+    /* display: inline; */
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.header-button {
+    background-color: var(--primary);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/* Hero-Section */
+.hero-section {
+    padding: 100px 0px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.text-section {
+    flex-basis: 50%;
+}
+.image-section {
+    flex-basis: 50%;
+}
+
+.image-section img {
+    width: 100%;
+}
+
+.text-section h1 {
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+
+/* demo-section */
+.title-section {
+    margin-bottom: 30px;
+}
+
+.title-section h1 {
+    font-size: 35px;
+}
+.demo img {
+    width: 100%;
+}
+
+.demo-section {
+    text-align: center;
+}
+
+.demo-flex {
+    justify-content: space-evenly;
+}
+
+.card {
+    flex-basis: 33%;
+    background-color: rgba(231, 231, 231, 0.732);
+    margin: 20px;
+    padding: 35px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.card p {
+    color: #9e9e9e;
+}
+
+.card:hover {
+    background-color: #292640;
+}
+
+.card:hover h2 {
+    color: #fff;
+}
+
+footer {
+   background-color: #292640; 
+   color: #fff;
+   padding: 100px;
+   margin-top: 50px;
+}
+
+.footer-width {
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+footer .button-section {
+    justify-content: center;
+}
